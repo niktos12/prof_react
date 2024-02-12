@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face{
+  font-family: 'FedraSans';
+  src:local('FedraSans', url('../public/fonts/FedraSansPro-Normal.woff2') format('.woff2'))
+}
+@font-face{
+  font-family: 'CentroSansPro';
+  src: local('CentroSansPro', url('../public/fonts/PFCentroSansPro-Italic.woff') format('.woff'));
+}
+body {
+  margin: 0;
+}
