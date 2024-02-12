@@ -16,7 +16,7 @@ export function Main(){
                 <div className="flex flex-row items-center gap-20 mt-10">
                     <div className="flex flex-col items-center">
                         <img 
-                        src="../summercol.jpg" 
+                        src={process.env.PUBLIC_URL + '/summercol.jpg'}
                         alt="" 
                         className="max-w-[500px] rounded-3xl"
                     />
@@ -24,7 +24,7 @@ export function Main(){
                     </div>
                     <div className="flex flex-col items-center">
                         <img 
-                        src="../wintercol.jpg" 
+                        src={process.env.PUBLIC_URL + '/wintercol.jpg'}
                         alt="" 
                         className="max-w-[500px] rounded-3xl"
                     />
