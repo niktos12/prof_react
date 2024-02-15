@@ -7,11 +7,11 @@ export function Main(){
                     className="flex flex-row text-pink-400 text-4xl mt-4"
                 >
                     Ягодки&#160;
-                    <h2 
+                    <span 
                         className="text-black"
                     >
                       - онлайн-магазин одежды от российского производителя
-                    </h2>
+                    </span>
                 </h1>
                 <div className="flex flex-row items-center gap-20 mt-10">
                     <div className="flex flex-col items-center">
