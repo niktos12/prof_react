@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/prof_react/static/css/main.4db59066.css",
-    "main.js": "/prof_react/static/js/main.de65c55e.js",
+    "main.css": "/prof_react/static/css/main.f5f4b578.css",
+    "main.js": "/prof_react/static/js/main.3aae99bc.js",
     "static/js/592.7f72a991.chunk.js": "/prof_react/static/js/592.7f72a991.chunk.js",
     "static/media/PFCentroSansPro-Italic.woff": "/prof_react/static/media/PFCentroSansPro-Italic.fdb372da97163590a62b.woff",
     "static/media/FedraSansPro-Normal.woff2": "/prof_react/static/media/FedraSansPro-Normal.d3506931251ce72e2c6d.woff2",
     "index.html": "/prof_react/index.html",
-    "main.4db59066.css.map": "/prof_react/static/css/main.4db59066.css.map",
-    "main.de65c55e.js.map": "/prof_react/static/js/main.de65c55e.js.map",
+    "main.f5f4b578.css.map": "/prof_react/static/css/main.f5f4b578.css.map",
+    "main.3aae99bc.js.map": "/prof_react/static/js/main.3aae99bc.js.map",
     "592.7f72a991.chunk.js.map": "/prof_react/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4db59066.css",
-    "static/js/main.de65c55e.js"
+    "static/css/main.f5f4b578.css",
+    "static/js/main.3aae99bc.js"
   ]
 }
