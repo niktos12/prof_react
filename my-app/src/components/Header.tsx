@@ -1,11 +1,13 @@
-import { CiGlobe } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { FaShoppingCart } from "react-icons/fa";
 import { VscAccount } from "react-icons/vsc";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 export function Header(){
+    const {t} = useTranslation();
     return(
-        <div className="flex flex-col w-full border-b border-pink-400 ">
+        <div className="flex flex-col w-full border-b border-pink-400 sticky top-0 bg-white z-50">
             <div className="flex flex-row items-center justify-around">
                 <img src={process.env.PUBLIC_URL + '/yagotka.png'} className="w-[250px] h-[100px] cursor-pointer"/>
                 <div className="flex flex-row gap-2">
@@ -13,7 +15,7 @@ export function Header(){
                         className="group cursor-pointer flex flex-row items-center gap-1 
                         hover:text-pink-400 duration-300 ease-in-out"
                     >
-                        Женщинам
+                        {t('forwomen')}
                         <MdOutlineKeyboardArrowDown 
                             className="group-hover:text-black text-black"
                         />
@@ -22,7 +24,7 @@ export function Header(){
                         className="group cursor-pointer flex flex-row items-center gap-1 hover:text-pink-400 
                         duration-300 ease-in-out"
                     >
-                        Мужчинам
+                        {t('formen')}
                         <MdOutlineKeyboardArrowDown 
                             className="group-hover:text-black text-black"
                         />
@@ -31,7 +33,7 @@ export function Header(){
                         className="group cursor-pointer flex flex-row items-center gap-1 
                         hover:text-pink-400 duration-300 ease-in-out"
                     >
-                        Детям
+                        {t('forkids')}
                         <MdOutlineKeyboardArrowDown 
                             className="group-hover:text-black text-black"
                         />
@@ -40,7 +42,7 @@ export function Header(){
                         className="group cursor-pointer flex flex-row items-center gap-1 
                         hover:text-pink-400 duration-300 ease-in-out"
                     >
-                        Акции
+                        {t('promotions')}
                         <MdOutlineKeyboardArrowDown 
                             className="group-hover:text-black text-black"
                         />
@@ -49,7 +51,7 @@ export function Header(){
                         className="group cursor-pointer flex flex-row items-center gap-1 
                         hover:text-pink-400 duration-300 ease-in-out"
                     >
-                        Контакты
+                        {t('contacts')}
                         <MdOutlineKeyboardArrowDown 
                             className="group-hover:text-black text-black"
                         />
@@ -65,9 +67,7 @@ export function Header(){
                     <VscAccount 
                         className="w-7 h-7 cursor-pointer hover:text-pink-400 duration-300 ease-in-out"
                     />
-                    <CiGlobe 
-                        className="w-7 h-7 cursor-pointer hover:text-pink-400 duration-300 ease-in-out"
-                    />
+                    <LanguageSwitcher/>
                 </div>
                 
             </div>

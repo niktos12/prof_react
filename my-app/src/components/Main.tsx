@@ -1,16 +1,17 @@
 import { Header } from "./Header"
+import { useTranslation } from "react-i18next"
 export function Main(){
+    const {t} = useTranslation();
     return(
         <div className="flex flex-col justify-center items-center">
-            <Header/>
                 <h1 
                     className="flex flex-row text-pink-400 text-4xl mt-4"
                 >
-                    Ягодки&#160;
+                    {t('yagotki')}&#160;
                     <span 
                         className="text-black"
                     >
-                      - онлайн-магазин одежды от российского производителя
+                      {t('online-shop')}
                     </span>
                 </h1>
                 <div className="flex flex-row items-center gap-20 mt-10">
@@ -20,7 +21,7 @@ export function Main(){
                         alt="" 
                         className="max-w-[500px] rounded-3xl"
                     />
-                    <p className="text-xl">☀ Летняя коллекция ⛱</p>
+                    <p className="text-xl">☀ {t('summercol')} ⛱</p>
                     </div>
                     <div className="flex flex-col items-center">
                         <img 
@@ -28,7 +29,7 @@ export function Main(){
                         alt="" 
                         className="max-w-[500px] rounded-3xl"
                     />
-                    <p className="text-xl">☃ Зимняя коллекция ❄</p>
+                    <p className="text-xl">☃ {t('wintercol')} ❄</p>
                     </div>
                     
                 </div>
