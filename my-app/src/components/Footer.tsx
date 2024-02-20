@@ -6,7 +6,7 @@ export function Footer(){
     const {t} = useTranslation();
     return(
         <div className="flex flex-row items-center justify-around bg-pink-400 p-4 mt-10">
-            <p className="select-none text-white">{t('copyright')}</p>
+            <p className="select-none text-white font-helvetica">{t('copyright')}</p>
             <div className="flex flex-row gap-3 text-4xl text-white items-center">
                 <FaFacebook 
                     className="cursor-pointer hover:scale-125 duration-500"/>

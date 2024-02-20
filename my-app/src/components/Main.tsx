@@ -5,11 +5,11 @@ export function Main(){
     return(
         <div className="flex flex-col justify-center items-center">
                 <h1 
-                    className="flex flex-row text-pink-400 text-4xl mt-4"
+                    className="flex flex-row text-pink-400 text-4xl mt-4 font-centroSansPro"
                 >
                     {t('yagotki')}&#160;
                     <span 
-                        className="text-black"
+                        className="text-black font-bree"
                     >
                       {t('online-shop')}
                     </span>

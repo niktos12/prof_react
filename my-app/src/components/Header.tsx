@@ -9,8 +9,8 @@ export function Header(){
     return(
         <div className="flex flex-col w-full border-b border-pink-400 sticky top-0 bg-white z-50">
             <div className="flex flex-row items-center justify-around">
-                <img src={process.env.PUBLIC_URL + '/yagotka.png'} className="w-[250px] h-[100px] cursor-pointer"/>
-                <div className="flex flex-row gap-2">
+                <img src={process.env.PUBLIC_URL + t('logo')} className="w-[250px] h-[150px] cursor-pointer"/>
+                <div className="flex flex-row gap-2 font-fedraSansPro">
                     <a 
                         className="group cursor-pointer flex flex-row items-center gap-1 
                         hover:text-pink-400 duration-300 ease-in-out"

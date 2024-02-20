@@ -4,12 +4,64 @@
 
 
 @font-face{
-  font-family: 'FedraSans';
-  src:local('FedraSans', url('../public/fonts/FedraSansPro-Normal.woff2') format('.woff2'))
+  font-family: 'FedraSansPro';
+  src:url('../public/fonts/FedraSansPro-Normal.woff2') format('.woff2');
+  font-weight: 400;
+  font-style: normal
 }
 @font-face{
   font-family: 'CentroSansPro';
-  src: local('CentroSansPro', url('../public/fonts/PFCentroSansPro-Italic.woff') format('.woff'));
+  src: url('../public/fonts/PFCentroSansPro-Italic.woff') format('.woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face{
+  font-family: 'Bree';
+  src: url('../public/fonts/Bree\ Regular.otf') format('.otf');
+  font-weight: 400;
+  font-style: normal
+}
+@font-face{
+  font-family: 'Proxima Nova';
+  src: url('../public/fonts/proximanova_regular.ttf') format('.ttf');
+  font-weight: 400;
+  font-style: normal
+}
+@font-face{
+  font-family: 'Museo Slab';
+  src: url('../public/fonts/MuseoSlab-500.woff') format('.woff');
+  font-weight: 500;
+  font-style: normal
+}
+@font-face{
+  font-family: 'FF Kava';
+  src: url('../public/fonts/FFKavaPro-Regular.otf') format('.otf');
+  font-weight: 400;
+  font-style: normal
+}
+@font-face{
+  font-family: 'Avenir';
+  src: url('../public/fonts/Avenir-Light.woff2') format('.woff2');
+  font-weight: 400;
+  font-style: normal
+}
+@font-face{
+  font-family: 'Helvetica';
+  src: url('../public/fonts/helvetica_regular.otf') format('.otf');
+  font-weight: 400;
+  font-style: normal
+}
+@keyframes backgroundAnimate {
+  0%,
+  100% {
+    background-color: #f472b6;
+  }
+  50% {
+    background-color: #db2777;
+  }
+}
+.background-animate{
+  animation: backgroundAnimate 5s infinite ease;
 }
 body {
   margin: 0;
