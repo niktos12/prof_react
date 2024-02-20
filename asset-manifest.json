@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/prof_react/static/css/main.927dc55d.css",
-    "main.js": "/prof_react/static/js/main.bdb60e9c.js",
+    "main.css": "/prof_react/static/css/main.a3843cc6.css",
+    "main.js": "/prof_react/static/js/main.09f76065.js",
     "static/js/592.7f72a991.chunk.js": "/prof_react/static/js/592.7f72a991.chunk.js",
+    "static/media/helvetica_regular.otf": "/prof_react/static/media/helvetica_regular.da7db66db5a8e54a8308.otf",
+    "static/media/proximanova_regular.ttf": "/prof_react/static/media/proximanova_regular.8181ca4b7c2d1189d78a.ttf",
+    "static/media/FFKavaPro-Regular.otf": "/prof_react/static/media/FFKavaPro-Regular.8e1aa4ef425920c8ab76.otf",
+    "static/media/Bree Regular.otf": "/prof_react/static/media/Bree Regular.462c33ff6de1481926d3.otf",
     "static/media/PFCentroSansPro-Italic.woff": "/prof_react/static/media/PFCentroSansPro-Italic.fdb372da97163590a62b.woff",
     "static/media/FedraSansPro-Normal.woff2": "/prof_react/static/media/FedraSansPro-Normal.d3506931251ce72e2c6d.woff2",
+    "static/media/MuseoSlab-500.woff": "/prof_react/static/media/MuseoSlab-500.2d920dc26d7a98780541.woff",
+    "static/media/Avenir-Light.woff2": "/prof_react/static/media/Avenir-Light.800ae2100a48ba7a5122.woff2",
     "index.html": "/prof_react/index.html",
-    "main.927dc55d.css.map": "/prof_react/static/css/main.927dc55d.css.map",
-    "main.bdb60e9c.js.map": "/prof_react/static/js/main.bdb60e9c.js.map",
+    "main.a3843cc6.css.map": "/prof_react/static/css/main.a3843cc6.css.map",
+    "main.09f76065.js.map": "/prof_react/static/js/main.09f76065.js.map",
     "592.7f72a991.chunk.js.map": "/prof_react/static/js/592.7f72a991.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.927dc55d.css",
-    "static/js/main.bdb60e9c.js"
+    "static/css/main.a3843cc6.css",
+    "static/js/main.09f76065.js"
   ]
 }
